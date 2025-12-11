@@ -1,77 +1,51 @@
-id,artista,album,cancion,genero,anio,tags_animo,tags_tema
-1,Daft Punk,Discovery,One More Time,House,2001,fiesta;energia,clasicos
-2,Daft Punk,Random Access Memories,Get Lucky,Disco,2013,fiesta;energia,disco
-3,Daft Punk,Discovery,Harder Better Faster Stronger,House,2001,energia;clasico,electronica
-4,Daft Punk,Discovery,Digital Love,House,2001,romantico;retro,electronica
-5,Daft Punk,Homework,Around the World,House,1997,bailable;clasico,electronica
-6,Adele,21,Rolling in the Deep,Pop,2011,melancolia;potente,voces
-7,Adele,25,Hello,Pop,2015,melancolia;epica,balada
-8,Adele,21,Someone Like You,Pop,2011,melancolia;intima,balada
-9,Adele,30,Easy On Me,Pop,2021,melancolia;suave,balada
-10,Adele,Skyfall,Skyfall,Pop,2012,epico;cinematico,bandas-sonoras
-11,Kendrick Lamar,DAMN.,HUMBLE.,Hip-Hop,2017,intenso;seguro,flow
-12,Kendrick Lamar,To Pimp a Butterfly,Alright,Hip-Hop,2015,seguro;protesta,rap
-13,Kendrick Lamar,"good kid m.A.A.d city",Money Trees,Hip-Hop,2012,calle;fluido,rap
-14,Kendrick Lamar,To Pimp a Butterfly,King Kunta,Hip-Hop,2015,funky;seguro,rap
-15,Kendrick Lamar,Single,Not Like Us,Hip-Hop,2024,bailable;disco,rap
-16,Taylor Swift,1989,Style,Pop,2014,optimista;moderno,pop-mainstream
-17,Taylor Swift,Midnights,Anti-Hero,Pop,2022,confesional;moderno,pop
-18,Taylor Swift,Fearless,Love Story,Country-pop,2008,romantico;nostalgico,pop-country
-19,Taylor Swift,Single,Cruel Summer,Pop,2019,euforico;verano,pop
-20,Taylor Swift,1989,Blank Space,Pop,2014,ironico;pop,pop-mainstream
-21,Taylor Swift,1989,Shake It Off,Pop,2014,fiesta;optimista,pop
-22,Radiohead,OK Computer,Paranoid Android,Rock,1997,introspectivo;epico,alternativo
-23,Radiohead,OK Computer,Karma Police,Rock,1997,introspectivo;oscuro,alternativo
-24,Radiohead,OK Computer,No Surprises,Rock,1997,melancolia;suave,alternativo
-25,Radiohead,Pablo Honey,Creep,Rock,1993,melancolia;intenso,alternativo
-26,Radiohead,The Bends,Fake Plastic Trees,Rock,1995,emotivo;melancolia,alternativo
-27,Arctic Monkeys,AM,Do I Wanna Know?,Rock,2013,melancolia;nocturno,indie
-28,Arctic Monkeys,AM,R U Mine?,Rock,2012,intenso;nocturno,indie
-29,Arctic Monkeys,Favourite Worst Nightmare,505,Rock,2007,melancolia;intenso,indie
-30,Arctic Monkeys,AM,Arabella,Rock,2013,sensual;retro,indie
-31,Arctic Monkeys,AM,I Wanna Be Yours,Rock,2013,romantico;suave,indie
-32,The Weeknd,After Hours,Blinding Lights,Synthpop,2020,retro;energico,ochentas
-33,The Weeknd,After Hours,Save Your Tears,Synthpop,2020,melancolia;retro,ochentas
-34,The Weeknd,Starboy,Starboy,Electropop,2016,oscuro;energetico,pop
-35,The Weeknd,Beauty Behind the Madness,The Hills,Alt-R&B,2015,oscuro;intenso,rnb
-36,The Weeknd,Beauty Behind the Madness,Cant Feel My Face,Pop,2015,bailable;funky,pop
-37,Dua Lipa,Future Nostalgia,Levitating,Pop,2020,fiesta;optimista,disco-pop
-38,Dua Lipa,Future Nostalgia,Dont Start Now,Pop,2019,fiesta;optimista,disco-pop
-39,Dua Lipa,Dua Lipa,New Rules,Pop,2017,empoderante;moderno,pop
-40,Dua Lipa,Single,One Kiss,Pop,2018,bailable;optimista,dance
-41,Dua Lipa,Future Nostalgia,Physical,Pop,2020,intenso;energia,disco-pop
-42,Bad Bunny,Un Verano Sin Ti,Titi Me Pregunto,Reggaeton,2022,fiesta;energico,latino
-43,Bad Bunny,El Ultimo Tour del Mundo,Dakiti,Reggaeton,2020,oscuro;fiesta,latino
-44,Bad Bunny,Nadie Sabe Lo Que Va a Pasar,Monaco,Latin-trap,2023,seguro;lux,trap
-45,Bad Bunny,Single,Callaita,Reggaeton,2019,relax;verano,latino
-46,Bad Bunny,Un Verano Sin Ti,Me Porto Bonito,Reggaeton,2022,fiesta;coqueta,latino
-47,Quevedo,Donde Quiero Estar,Playa del Ingles,Reggaeton,2023,fiesta;suave,latino
-48,Quevedo,Bzrp Music Sessions,Quevedo: Bzrp Music Sessions #52,Reggaeton,2022,fiesta;rapido,urbano
-49,Quevedo,Donde Quiero Estar,Vista al Mar,Reggaeton,2023,romantico;verano,latino
-50,Quevedo,Donde Quiero Estar,Punto G,Reggaeton,2023,fiesta;suave,latino
-51,Quevedo,Single,Columbia,Reggaeton,2022,oscuro;trap,latino
-52,Rosalia,Single,Despecha,Pop,2022,fiesta;verano,latin-pop
-53,Rosalia,El Mal Querer,Malamente,Flamenco-pop,2018,intenso;oscuro,flamenco-fusion
-54,Rosalia,Single,Con Altura,Reggaeton,2019,fiesta;energia,latino
-55,Rosalia,MOTOMAMI,Bizcochito,Pop,2022,jugueton;experimental,pop
-56,Rosalia,MOTOMAMI,Saoko,Experimental,2022,atrevido;intenso,latino
-57,Ozuna,Odisea,Se Preparo,Reggaeton,2017,romantico;suave,latino
-58,Ozuna,Single,Criminal,Reggaeton,2017,bailable;oscuro,latino
-59,Ozuna,Single,Caramelo,Reggaeton,2020,romantico;verano,latino
-60,Ozuna,Single,Taki Taki,Reggaeton,2018,fiesta;intenso,latino
-61,Ozuna,Single,Playa Marina,Reggaeton,2024,relax;verano,latino
-62,Granuja,Mixtape,De Pe a Pa,Rap,2021,calle;reflexivo,boom-bap
-63,Granuja,Mixtape,Mango Biche,Rap,2021,relajado;colombia,boom-bap
-64,Granuja,Mixtape,Blue Satellite,Rap,2021,atmosferico;introspectivo,boom-bap
-65,Granuja,Mixtape,Punto Rojo,Rap,2021,intenso;colaborativo,boom-bap
-66,Granuja,Mixtape,Hienas,Rap,2021,agresivo;oscuro,rap
-67,Doble Porcion,Single,Tren a Vapor,Rap,2020,nostalgico;calle,boom-bap
-68,Doble Porcion,Single,Par de Pepas,Rap,2020,crudo;calle,rap
-69,Doble Porcion,Single,Otras Cosas,Rap,2020,introspectivo;calle,rap
-70,Doble Porcion,Single,Esas Cosas,Rap,2020,suave;melancolia,rap
-71,Doble Porcion,Single,Dando Saltos,Rap,2020,energico;calle,rap
-72,Oblivion,No Me Acuerdo,No Me Acuerdo,Rap,2021,oscuro;colombia,rap
-73,Oblivion,No Me Acuerdo,Medallo Bullies,Rap,2021,calle;colaborativo,rap
-74,Oblivion,No Me Acuerdo,Puro Parcerito,Rap,2021,juvenil;colombia,rap
-75,Oblivion,No Me Acuerdo,Callao,Rap,2021,intenso;calle,rap
-76,Oblivion,No Me Acuerdo,No Me Soya La Playa,Rap,2021,relajado;playa,rap
+id,titulo,genero,anio,elenco,descripcion,tags
+1,Inception,Sci-Fi,2010,Leonardo DiCaprio; Joseph Gordon-Levitt,Sueno dentro de suenos; equipo roba ideas,sci-fi;heist;mind-bending
+2,The Dark Knight,Accion,2008,Christian Bale; Heath Ledger,Batman enfrenta al Joker en Gotham,superheroes;thriller;crime
+3,Interstellar,Sci-Fi,2014,Matthew McConaughey; Anne Hathaway,Viaje espacial para salvar a la humanidad,space;drama;epico
+4,La La Land,Romance,2016,Ryan Gosling; Emma Stone,Musico y actriz persiguen sus suenos en LA,musical;romance;drama
+5,The Matrix,Sci-Fi,1999,Keanu Reeves; Carrie-Anne Moss,Hacker descubre que vive en una simulacion,cyberpunk;accion;filosofia
+6,John Wick,Accion,2014,Keanu Reeves,Exasesino busca venganza tras perder a su perro,accion;venganza;noir
+7,Blade Runner 2049,Sci-Fi,2017,Ryan Gosling; Harrison Ford,Blade Runner descubre un secreto sobre replicantes,neo-noir;futurista;thriller
+8,The Notebook,Romance,2004,Ryan Gosling; Rachel McAdams,Historia de amor contada a traves de los anos,romance;drama;lagrimas
+9,The Revenant,Accion,2015,Leonardo DiCaprio; Tom Hardy,Trampero sobrevive y busca venganza en la frontera,supervivencia;drama;epico
+10,The Wolf of Wall Street,Comedia,2013,Leonardo DiCaprio; Jonah Hill,Ascenso y caida de un corredor de bolsa excesivo,comedia;biografia;crime
+11,Titanic,Romance,1997,Leonardo DiCaprio; Kate Winslet,Amor prohibido en el trasatlantico condenado,romance;epico;historico
+12,Shutter Island,Thriller,2010,Leonardo DiCaprio; Mark Ruffalo,Detectives investigan un hospital psiquiatrico aislado,thriller;psicologico;misterio
+13,The Departed,Crime,2006,Leonardo DiCaprio; Matt Damon,Topo en la policia y topo en la mafia se cruzan,crime;thriller;policial
+14,American Psycho,Thriller,2000,Christian Bale,Banquero con doble vida violenta en los 80,thriller;psicologico;satira
+15,The Machinist,Thriller,2004,Christian Bale,Obrero insomne sufre paranoia y alucinaciones,psicologico;drama;noir
+16,American Hustle,Crime,2013,Christian Bale; Amy Adams,Estafadores colaboran con el FBI en los 70,crime;comedia;drama
+17,Ford v Ferrari,Drama,2019,Christian Bale; Matt Damon,Piloto y disenador compiten en Le Mans,drama;deportes;biografia
+18,Dallas Buyers Club,Drama,2013,Matthew McConaughey,Electricista se vuelve traficante de medicamentos,biografia;drama;medico
+19,Drive,Thriller,2011,Ryan Gosling,Doble de riesgo se mete en un atraco fallido,noir;thriller;accion
+20,The Nice Guys,Comedia,2016,Ryan Gosling; Russell Crowe,Dos investigadores torpes resuelven un caso en los 70,comedia;buddy;crime
+21,Barbie,Comedia,2023,Ryan Gosling; Margot Robbie,Barbie y Ken cuestionan su mundo perfecto,fantasia;comedia;meta
+22,Easy A,Comedia,2010,Emma Stone,Chica finge promiscuidad y gana fama en la escuela,teen;comedia;romance
+23,The Favourite,Drama,2018,Emma Stone; Olivia Colman,Juego de poder en la corte de la reina Ana,drama;historico;satira
+24,Cruella,Comedia,2021,Emma Stone,Origen fashion de la villana Cruella de Vil,comedia;crime;moda
+25,The Matrix Reloaded,Sci-Fi,2003,Keanu Reeves,Neo enfrenta nuevas amenazas en la Matrix,cyberpunk;accion;secuela
+26,John Wick Chapter 2,Accion,2017,Keanu Reeves,John Wick vuelve a la accion por juramento,accion;noir;secuela
+27,Joker,Thriller,2019,Joaquin Phoenix,Origen oscuro del icónico villano de Gotham,drama;psicologico;crime
+28,Her,Romance,2013,Joaquin Phoenix,Hombre se enamora de un sistema operativo,romance;sci-fi;intimo
+29,Walk the Line,Drama,2005,Joaquin Phoenix,Biografia de Johnny Cash y su musica,biografia;musica;romance
+30,Lost in Translation,Drama,2003,Scarlett Johansson; Bill Murray,Actriz joven y actor en crisis se conectan en Tokio,drama;intimo;romance
+31,Lucy,Accion,2014,Scarlett Johansson,Mula involuntaria obtiene poderes cerebrales extremos,sci-fi;accion;thriller
+32,Marriage Story,Drama,2019,Scarlett Johansson; Adam Driver,Pareja atraviesa divorcio doloroso,drama;familiar;intimo
+33,Scarface,Crime,1983,Al Pacino,Inmigrante cubano asciende como capo en Miami,crime;violento;clasico
+34,Heat,Crime,1995,Al Pacino; Robert De Niro,Detective y ladrón profesional se enfrentan,crime;thriller;heist
+35,Top Gun Maverick,Accion,2022,Tom Cruise,Piloto veterano entrena a nueva generacion,accion;aviacion;nostalgia
+36,Mission Impossible Fallout,Accion,2018,Tom Cruise,Ethan Hunt salva el mundo de una catastrofe nuclear,espias;accion;thriller
+37,Minority Report,Sci-Fi,2002,Tom Cruise,Policia predelictos descubre conspiracion,thriller;futurista;accion
+38,Edge of Tomorrow,Sci-Fi,2014,Tom Cruise; Emily Blunt,Soldado revive el mismo dia en guerra alienigena,sci-fi;accion;bucle
+39,Monster,Drama,2003,Charlize Theron,Biografia de una asesina serial en Florida,drama;crime;biografia
+40,Mad Max Fury Road,Accion,2015,Charlize Theron; Tom Hardy,Huida postapocaliptica a toda velocidad,accion;postapocaliptico;feminismo
+41,Atomic Blonde,Accion,2017,Charlize Theron,Espia en Berlin durante la Guerra Fria,accion;espias;noir
+42,Whiplash,Drama,2014,Miles Teller; J.K. Simmons,Baterista y profesor feroz en conservatorio,musica;drama;intenso
+43,Top Gun Maverick (Miles),Accion,2022,Miles Teller; Tom Cruise,Alumno de Maverick en la academia naval,accion;aviacion;drama
+44,Deadpool,Accion,2016,Ryan Reynolds,Antihéroe irreverente rompe la cuarta pared,comedia;superheroes;accion
+45,Free Guy,Comedia,2021,Ryan Reynolds,PNJ de videojuego se vuelve consciente,comedia;accion;videojuegos
+46,The Devil Wears Prada,Comedia,2006,Anne Hathaway,Asistente en revista de moda enfrenta jefa temible,comedia;moda;drama
+47,Les Miserables,Drama,2012,Anne Hathaway,Adaptacion musical del clasico frances,musical;drama;historico
+48,Interstellar (Anne),Sci-Fi,2014,Anne Hathaway; Matthew McConaughey,Cientifica se une a mision espacial,sci-fi;space;drama
+49,The Godfather Part II,Crime,1974,Al Pacino; Robert De Niro,Historia de los Corleone en dos epocas,mafia;drama;clasico
+50,Apocalypse Now,Drama,1979,Marlon Brando; Martin Sheen,Mision para encontrar a un coronel fuera de control,belica;psicologico;clasico

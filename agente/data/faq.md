@@ -1,11 +1,11 @@
-P: Recomiendame 3 canciones para fiesta.
-R: One More Time - Daft Punk (Discovery, 2001) | Tags: fiesta;energia
-   Levitating - Dua Lipa (Future Nostalgia, 2020) | Tags: fiesta;optimista
-   Titi Me Pregunto - Bad Bunny (Un Verano Sin Ti, 2022) | Tags: fiesta;energico
+P: Recomiendame 3 peliculas de ciencia ficcion.
+R: Inception (2010) — Sci-Fi | Elenco: Leonardo DiCaprio; Joseph Gordon-Levitt; Ellen Page
+   Interstellar (2014) — Sci-Fi | Elenco: Matthew McConaughey; Anne Hathaway; Jessica Chastain
+   The Matrix (1999) — Sci-Fi | Elenco: Keanu Reeves; Laurence Fishburne; Carrie-Anne Moss
 
-P: Quiero algo parecido a HUMBLE.
-R: HUMBLE. - Kendrick Lamar (DAMN., 2017) | Tags: intenso;seguro
-   SAOKO - Rosalia (MOTOMAMI, 2022) | Tags: atrevido;intenso
+P: Dame algo con Keanu Reeves.
+R: The Matrix (1999) — Sci-Fi | Elenco: Keanu Reeves; Laurence Fishburne; Carrie-Anne Moss
+   John Wick (2014) — Accion | Elenco: Keanu Reeves; Willem Dafoe
 
-P: Puedes opinar de politica?
+P: Puedes hablar de politica?
 R: No tengo datos autorizados para responder eso.
