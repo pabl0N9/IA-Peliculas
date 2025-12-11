@@ -1,0 +1,77 @@
+id,artista,album,cancion,genero,anio,tags_animo,tags_tema
+1,Daft Punk,Discovery,One More Time,House,2001,fiesta;energia,clasicos
+2,Daft Punk,Random Access Memories,Get Lucky,Disco,2013,fiesta;energia,disco
+3,Daft Punk,Discovery,Harder Better Faster Stronger,House,2001,energia;clasico,electronica
+4,Daft Punk,Discovery,Digital Love,House,2001,romantico;retro,electronica
+5,Daft Punk,Homework,Around the World,House,1997,bailable;clasico,electronica
+6,Adele,21,Rolling in the Deep,Pop,2011,melancolia;potente,voces
+7,Adele,25,Hello,Pop,2015,melancolia;epica,balada
+8,Adele,21,Someone Like You,Pop,2011,melancolia;intima,balada
+9,Adele,30,Easy On Me,Pop,2021,melancolia;suave,balada
+10,Adele,Skyfall,Skyfall,Pop,2012,epico;cinematico,bandas-sonoras
+11,Kendrick Lamar,DAMN.,HUMBLE.,Hip-Hop,2017,intenso;seguro,flow
+12,Kendrick Lamar,To Pimp a Butterfly,Alright,Hip-Hop,2015,seguro;protesta,rap
+13,Kendrick Lamar,"good kid m.A.A.d city",Money Trees,Hip-Hop,2012,calle;fluido,rap
+14,Kendrick Lamar,To Pimp a Butterfly,King Kunta,Hip-Hop,2015,funky;seguro,rap
+15,Kendrick Lamar,Single,Not Like Us,Hip-Hop,2024,bailable;disco,rap
+16,Taylor Swift,1989,Style,Pop,2014,optimista;moderno,pop-mainstream
+17,Taylor Swift,Midnights,Anti-Hero,Pop,2022,confesional;moderno,pop
+18,Taylor Swift,Fearless,Love Story,Country-pop,2008,romantico;nostalgico,pop-country
+19,Taylor Swift,Single,Cruel Summer,Pop,2019,euforico;verano,pop
+20,Taylor Swift,1989,Blank Space,Pop,2014,ironico;pop,pop-mainstream
+21,Taylor Swift,1989,Shake It Off,Pop,2014,fiesta;optimista,pop
+22,Radiohead,OK Computer,Paranoid Android,Rock,1997,introspectivo;epico,alternativo
+23,Radiohead,OK Computer,Karma Police,Rock,1997,introspectivo;oscuro,alternativo
+24,Radiohead,OK Computer,No Surprises,Rock,1997,melancolia;suave,alternativo
+25,Radiohead,Pablo Honey,Creep,Rock,1993,melancolia;intenso,alternativo
+26,Radiohead,The Bends,Fake Plastic Trees,Rock,1995,emotivo;melancolia,alternativo
+27,Arctic Monkeys,AM,Do I Wanna Know?,Rock,2013,melancolia;nocturno,indie
+28,Arctic Monkeys,AM,R U Mine?,Rock,2012,intenso;nocturno,indie
+29,Arctic Monkeys,Favourite Worst Nightmare,505,Rock,2007,melancolia;intenso,indie
+30,Arctic Monkeys,AM,Arabella,Rock,2013,sensual;retro,indie
+31,Arctic Monkeys,AM,I Wanna Be Yours,Rock,2013,romantico;suave,indie
+32,The Weeknd,After Hours,Blinding Lights,Synthpop,2020,retro;energico,ochentas
+33,The Weeknd,After Hours,Save Your Tears,Synthpop,2020,melancolia;retro,ochentas
+34,The Weeknd,Starboy,Starboy,Electropop,2016,oscuro;energetico,pop
+35,The Weeknd,Beauty Behind the Madness,The Hills,Alt-R&B,2015,oscuro;intenso,rnb
+36,The Weeknd,Beauty Behind the Madness,Cant Feel My Face,Pop,2015,bailable;funky,pop
+37,Dua Lipa,Future Nostalgia,Levitating,Pop,2020,fiesta;optimista,disco-pop
+38,Dua Lipa,Future Nostalgia,Dont Start Now,Pop,2019,fiesta;optimista,disco-pop
+39,Dua Lipa,Dua Lipa,New Rules,Pop,2017,empoderante;moderno,pop
+40,Dua Lipa,Single,One Kiss,Pop,2018,bailable;optimista,dance
+41,Dua Lipa,Future Nostalgia,Physical,Pop,2020,intenso;energia,disco-pop
+42,Bad Bunny,Un Verano Sin Ti,Titi Me Pregunto,Reggaeton,2022,fiesta;energico,latino
+43,Bad Bunny,El Ultimo Tour del Mundo,Dakiti,Reggaeton,2020,oscuro;fiesta,latino
+44,Bad Bunny,Nadie Sabe Lo Que Va a Pasar,Monaco,Latin-trap,2023,seguro;lux,trap
+45,Bad Bunny,Single,Callaita,Reggaeton,2019,relax;verano,latino
+46,Bad Bunny,Un Verano Sin Ti,Me Porto Bonito,Reggaeton,2022,fiesta;coqueta,latino
+47,Quevedo,Donde Quiero Estar,Playa del Ingles,Reggaeton,2023,fiesta;suave,latino
+48,Quevedo,Bzrp Music Sessions,Quevedo: Bzrp Music Sessions #52,Reggaeton,2022,fiesta;rapido,urbano
+49,Quevedo,Donde Quiero Estar,Vista al Mar,Reggaeton,2023,romantico;verano,latino
+50,Quevedo,Donde Quiero Estar,Punto G,Reggaeton,2023,fiesta;suave,latino
+51,Quevedo,Single,Columbia,Reggaeton,2022,oscuro;trap,latino
+52,Rosalia,Single,Despecha,Pop,2022,fiesta;verano,latin-pop
+53,Rosalia,El Mal Querer,Malamente,Flamenco-pop,2018,intenso;oscuro,flamenco-fusion
+54,Rosalia,Single,Con Altura,Reggaeton,2019,fiesta;energia,latino
+55,Rosalia,MOTOMAMI,Bizcochito,Pop,2022,jugueton;experimental,pop
+56,Rosalia,MOTOMAMI,Saoko,Experimental,2022,atrevido;intenso,latino
+57,Ozuna,Odisea,Se Preparo,Reggaeton,2017,romantico;suave,latino
+58,Ozuna,Single,Criminal,Reggaeton,2017,bailable;oscuro,latino
+59,Ozuna,Single,Caramelo,Reggaeton,2020,romantico;verano,latino
+60,Ozuna,Single,Taki Taki,Reggaeton,2018,fiesta;intenso,latino
+61,Ozuna,Single,Playa Marina,Reggaeton,2024,relax;verano,latino
+62,Granuja,Mixtape,De Pe a Pa,Rap,2021,calle;reflexivo,boom-bap
+63,Granuja,Mixtape,Mango Biche,Rap,2021,relajado;colombia,boom-bap
+64,Granuja,Mixtape,Blue Satellite,Rap,2021,atmosferico;introspectivo,boom-bap
+65,Granuja,Mixtape,Punto Rojo,Rap,2021,intenso;colaborativo,boom-bap
+66,Granuja,Mixtape,Hienas,Rap,2021,agresivo;oscuro,rap
+67,Doble Porcion,Single,Tren a Vapor,Rap,2020,nostalgico;calle,boom-bap
+68,Doble Porcion,Single,Par de Pepas,Rap,2020,crudo;calle,rap
+69,Doble Porcion,Single,Otras Cosas,Rap,2020,introspectivo;calle,rap
+70,Doble Porcion,Single,Esas Cosas,Rap,2020,suave;melancolia,rap
+71,Doble Porcion,Single,Dando Saltos,Rap,2020,energico;calle,rap
+72,Oblivion,No Me Acuerdo,No Me Acuerdo,Rap,2021,oscuro;colombia,rap
+73,Oblivion,No Me Acuerdo,Medallo Bullies,Rap,2021,calle;colaborativo,rap
+74,Oblivion,No Me Acuerdo,Puro Parcerito,Rap,2021,juvenil;colombia,rap
+75,Oblivion,No Me Acuerdo,Callao,Rap,2021,intenso;calle,rap
+76,Oblivion,No Me Acuerdo,No Me Soya La Playa,Rap,2021,relajado;playa,rap

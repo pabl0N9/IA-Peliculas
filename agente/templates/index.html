@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agente Musical</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Tarara</h1>
+      <div id="output"></div>
+      <form id="chat-form">
+        <input id="message" type="text" placeholder="Escribe tu consulta musical..." autocomplete="off" />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <div class="footer">
+      Tomas Felipe Castrillon Pera &nbsp;|&nbsp; Jeronimo Montoya Buitrago &nbsp;|&nbsp; Pablo Jaramillo Navia
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
