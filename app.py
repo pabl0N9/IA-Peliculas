@@ -1,3 +1,4 @@
+﻿# -*- coding: utf-8 -*-
 import argparse
 from src import utils
 from src.retriever import Retriever
@@ -8,7 +9,7 @@ def infer_intent(pregunta: str) -> str:
     q = pregunta.lower()
     if "album" in q:
         return "buscar_album"
-    if "cancion" in q or "canci�n" in q or "song" in q:
+    if "cancion" in q or "canción" in q or "song" in q:
         return "buscar_cancion"
     return "recomendar"
 

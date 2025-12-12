@@ -14,8 +14,8 @@ form.addEventListener("submit", async (e) => {
     body: JSON.stringify({ message }),
   });
   const data = await resp.json();
-  if (data.response) appendMessage("agent", "Tarara", data.response);
-  if (data.error) appendMessage("agent", "Tarara", data.error);
+  if (data.response) appendMessage("agent", "Cine Bro", data.response);
+  if (data.error) appendMessage("agent", "Cine Bro", data.error);
 });
 
 function appendMessage(role, author, text) {

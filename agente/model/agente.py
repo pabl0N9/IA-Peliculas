@@ -13,6 +13,8 @@ class Agente:
         self.faq = Path(settings.data_faq).read_text(encoding="latin-1")
         self.df = pd.read_csv(settings.data_catalog, encoding="latin-1")
         self.actores = self._load_actores(Path(settings.data_artistas))
+        self.temas = self._temas_disponibles()
+        self.negative_response = self._build_negative_response()
         self.docs = self._build_docs(self.df)
         self.retriever = self._build_retriever(self.docs)
         self._init_model()
@@ -50,6 +52,23 @@ class Agente:
         matrix = vect.fit_transform(texts)
         return {"vectorizer": vect, "matrix": matrix, "metas": metas}
 
+    def _temas_disponibles(self):
+        temas = []
+        for _, r in self.df.iterrows():
+            raw = str(r.get("tags", ""))
+            raw = raw.replace(",", ";")
+            for t in raw.split(";"):
+                topic = t.strip()
+                if topic and topic not in temas:
+                    temas.append(topic)
+        return temas
+
+    def _build_negative_response(self):
+        if not self.temas:
+            return "Por el momento no tengo respuestas sobre eso."
+        lista = "\n- ".join(self.temas)
+        return f"Por el momento no tengo respuestas sobre eso, pero aqui te dejo temas de los cuales te puedo responder:\n- {lista}"
+
     def _search(self, query, k=None):
         k = k or self.settings.top_k
         vect = self.retriever["vectorizer"]
@@ -82,7 +101,7 @@ class Agente:
             lines.append(f"{m['titulo']} ({m['anio']}) - {m['genero']} | Elenco: {elenco} | {tags}")
         return "\n".join(lines)
 
-    def _llm_summarize(self, pregunta: str, contexto: str) -> str | None:
+    def _llm_summarize(self, pregunta: str, contexto: str, negative_text: str) -> str | None:
         if not self.model:
             return None
         prompt = f"""Eres un asistente de peliculas institucional. Responde en 2-3 frases claras y faciles de leer, sin listas ni etiquetas, usando solo este contexto.
@@ -91,7 +110,7 @@ Contexto:
 
 Pregunta del usuario: {pregunta}
 
-Si el contexto no contiene la respuesta, responde exactamente: {self.settings.negative}"""
+Si el contexto no contiene la respuesta, responde exactamente: {negative_text}"""
         try:
             result = self.model.generate_content(prompt)
             text = getattr(result, "text", "").strip()
@@ -112,7 +131,7 @@ Contexto:
 {contexto}
 
 Usuario: {pregunta}
-Responde en tono breve. Si no hay datos suficientes, responde exactamente: {self.settings.negative}"""
+Responde en tono breve. Si no hay datos suficientes, responde exactamente: {self.negative_response}"""
         return prompt
 
     def generate_response(self, pregunta: str) -> str:
@@ -128,7 +147,7 @@ Responde en tono breve. Si no hay datos suficientes, responde exactamente: {self
             if "pelicula" in pregunta.lower() or "peliculas" in pregunta.lower():
                 return f"Peliculas de {nombre.title()}:\n{movies_lines}"
             contexto = f"Actor/Actriz: {nombre.title()}. Bio: {bio}."
-            summary = self._llm_summarize(pregunta, contexto)
+            summary = self._llm_summarize(pregunta, contexto, negative_text=self.negative_response)
             cuerpo = summary if summary else f"Actor/Actriz: {nombre.title()}. Bio: {bio}."
             return f"{cuerpo}\n\nPeliculas:\n{movies_lines}"
 
@@ -141,10 +160,10 @@ Responde en tono breve. Si no hay datos suficientes, responde exactamente: {self
                 for _, r in self.df.head(max_count).iterrows():
                     fallback_items.append({"meta": r.to_dict(), "text": "", "score": 0.0})
                 return self._formato_recomendacion(fallback_items, max_count=max_count)
-            return self.settings.negative
+            return self.negative_response
 
         contexto = "\n".join([h["text"] for h in hits])
-        summary = self._llm_summarize(pregunta, contexto)
+        summary = self._llm_summarize(pregunta, contexto, negative_text=self.negative_response)
         if summary:
             return summary
         return self._formato_recomendacion(hits, max_count=max_count)
