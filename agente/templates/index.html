@@ -7,17 +7,41 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
   </head>
   <body>
-    <div class="card">
-      <h1>Cine Bro</h1>
-      <div id="output"></div>
-      <form id="chat-form">
-        <input id="message" type="text" placeholder="Escribe tu consulta musical..." autocomplete="off" />
-        <button type="submit">Enviar</button>
-      </form>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <div class="logo"></div>
+          <button class="icon-btn" aria-label="Toggle sidebar">☰</button>
+        </div>
+        <button class="primary-btn">Nuevo chat</button>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="brand">Cine Bro</div>
+          <div class="actions">
+            <button class="icon-btn" aria-label="Historial">⟳</button>
+            <button class="icon-btn" aria-label="Notificaciones">⋮</button>
+          </div>
+        </header>
+
+        <section class="hero">
+          <h1>¿Con qué puedo ayudarte?</h1>
+          <form id="chat-form" class="chat-bar">
+            <div class="chat-left">
+              <span class="icon plus">＋</span>
+              <input id="message" type="text" placeholder="Pregunta lo que quieras" autocomplete="off" />
+            </div>
+            <div class="chat-right">
+              <button type="submit" class="icon-btn send" aria-label="Enviar">↩</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="chat-window" id="output" aria-live="polite"></section>
+      </main>
     </div>
-    <div class="footer">
-      Tomas Felipe Castrillon Pera &nbsp;|&nbsp; Jeronimo Montoya Buitrago &nbsp;|&nbsp; Pablo Jaramillo Navia
-    </div>
+
     <script src="{{ url_for('static', filename='app.js') }}"></script>
   </body>
 </html>
